@@ -14,3 +14,5 @@ Open `index.html` in a web browser.
 
 ## Publish with GitHub Pages
 Upload/replace `index.html`, `style.css`, `script.js`, and `README.md` in the root of your GitHub repository, commit the changes to `main`, and ensure GitHub Pages is configured to deploy from `main` / `/(root)`.
+
+Update: Section 05 contains only the FitLife promotional advertisement banner. The extra “Make your next step count” panel has been removed. The advertisement uses a light cream/yellow theme.

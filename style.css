@@ -114,3 +114,17 @@ footer{color:#74766d!important;border-color:#e8e3d4!important}
 #ad .ad-footer{display:flex;justify-content:space-between;align-items:center;gap:12px;color:#666047;font-size:.68rem;letter-spacing:.08em}
 #ad .ad-cta{display:inline-block;background:#f5c928;color:#24251f;padding:10px 15px;border-radius:7px;font-weight:900;white-space:nowrap;letter-spacing:.04em}
 @media(max-width:760px){#ad .ad-layout{grid-template-columns:1fr}#ad .ad-poster{padding:22px;min-height:320px}#ad .ad-footer{align-items:flex-start;flex-direction:column}}
+
+
+/* Advertisement section 05: keep only the campaign poster, in the site's light palette. */
+#ad .ad-layout-single { display: block; }
+#ad .ad-layout-single .ad-poster { width: 100%; max-width: 100%; box-sizing: border-box; background: linear-gradient(125deg,#fffdf4,#fff5c9); color: #292719; border: 1px solid #eadb9b; box-shadow: 0 12px 28px rgba(105,85,20,.10); }
+#ad .ad-layout-single .ad-brand-mark { background: #f2cf48; color: #292719; }
+#ad .ad-layout-single .ad-small { color: #8a6a08; }
+#ad .ad-layout-single .ad-main-copy h3 { color: #292719; }
+#ad .ad-layout-single .ad-main-copy h3 em { color: #c59a05; }
+#ad .ad-layout-single .ad-poster-desc, #ad .ad-layout-single .ad-poster-sub { color: #454333; }
+#ad .ad-layout-single .ad-offer { border-color: #e4dba9; }
+#ad .ad-layout-single .ad-offer span { color: #8a6a08; }
+#ad .ad-layout-single .ad-footer { border-color: #e4dba9; }
+#ad .ad-layout-single .ad-cta { background: #f2cf48; color: #292719; }
